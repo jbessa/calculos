@@ -8,6 +8,13 @@ internal class Aritmetica{
         return x + y;
     }
 
+    public int Subtrar(int x, int y)
+    {
+
+            return x - y;
+
+    }
+
 }
 
 
