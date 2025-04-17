@@ -29,9 +29,20 @@ internal class Aritmetica
     /// <param name="x"></param>
     /// <param name="y"></param>
     /// <returns>Retorna o resultado da subtração de dois números</returns>
-    public static int Subtrar(int x, int y)
+    public static int Subtrair(int x, int y)
     {
         return x - y;
+    }
+
+    /// <summary>
+    /// Operação de multiplicação
+    /// </summary>
+    /// <param name="x"></param>
+    /// <param name="y"></param>
+    /// <returns>Retorna a multiplicação de dois números</returns>
+    public static int Multiplicar(int x, int y)
+    {
+        return x * y;
     }
 }
 }
