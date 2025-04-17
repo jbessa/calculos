@@ -6,7 +6,7 @@ internal class Aritmetica
     /// <summary>
     /// Tipo de conversão de temperatura a executar.
     /// </summary>
-    public enum ConversaoTemperatura
+    public enum static ConversaoTemperatura
     {
         Nulo = 0,
         CelsiusFahrenheit,
@@ -19,7 +19,7 @@ internal class Aritmetica
     /// <param name="x"></param>
     /// <param name="y"></param>
     /// <returns>Retirna a soma de dois números</returns>
-    public int Somar(int x, int y)
+    public static int Somar(int x, int y)
     {
         return x + y;
     }
@@ -30,12 +30,12 @@ internal class Aritmetica
 /// <param name="x"></param>
 /// <param name="y"></param>
 /// <returns>Retorna o resultado da subtração de dois números</returns>
-    public int Subtrar(int x, int y)
+    public static int Subtrar(int x, int y)
     {
         return x - y;
     }
 
-public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura){
+public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura){
 
     if (conversao == ConversaoTemperatura.CelsiusFahrenheit){
         return (temperatura * 1.8000 + 32);
@@ -47,9 +47,6 @@ public double ConverterTemperatura(ConversaoTemperatura conversao, double temper
     return -1;
 }
 
-
 }
-
-
 
 }
